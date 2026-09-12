@@ -69,6 +69,16 @@
       "prix": 1000,
       "accroche": "Bonne ",
       "description": "Une déodorant "
+    },
+    {
+      "volume": "15ml",
+      "image": "/images/uploads/802f146f-9bc6-43dc-b23b-c61f689c8e04.jpeg",
+      "description": "Huille essentielle ",
+      "accroche": "Authentique ",
+      "prix": 1000,
+      "famille": "Huille",
+      "nom": "Oud huille ",
+      "id": 8
     }
   ]
 }
