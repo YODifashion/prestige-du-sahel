@@ -98,6 +98,16 @@
       "prix": 1500,
       "accroche": "Trop bon ",
       "description": "La Cologne meilleur parfume "
+    },
+    {
+      "volume": "15 ml",
+      "image": "/images/uploads/a818a887-58eb-4744-bf02-482d74a5a658.jpeg",
+      "description": "Des huille authentique à base musc",
+      "accroche": "Authentique ",
+      "prix": 1000,
+      "famille": "Oud misc",
+      "nom": "Huille ",
+      "id": 11
     }
   ]
 }
