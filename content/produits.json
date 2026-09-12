@@ -159,6 +159,16 @@
       "prix": 3500,
       "accroche": "Très sic ",
       "description": "Sic pour la nuit "
+    },
+    {
+      "volume": "75 ml",
+      "image": "/images/uploads/5c3209eb-5480-4f15-9a67-5184403f7b95.jpeg",
+      "nom": "Oud Galib ",
+      "id": 18,
+      "famille": "Oud ",
+      "prix": 4000,
+      "accroche": "Trop bon ",
+      "description": "Oud meilleur game "
     }
   ]
 }
