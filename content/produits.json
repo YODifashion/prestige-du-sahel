@@ -19,6 +19,16 @@
       "nom": "Sweet heart",
       "id": 2,
       "accroche": "Bien aromatisée "
+    },
+    {
+      "volume": "Tout volume",
+      "image": "/images/uploads/f6d6b2b0-19fe-4e44-a32b-c7586aad9ee7.jpeg",
+      "description": "Une brume parfumée délicate au bois, conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée.",
+      "nom": "Saphir bleu ",
+      "id": 3,
+      "famille": "Parfum simple ",
+      "prix": 1500,
+      "accroche": "Parfume été "
     }
   ]
 }
