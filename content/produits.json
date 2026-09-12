@@ -9,6 +9,16 @@
       "prix": 15000,
       "accroche": "Bonne ",
       "description": "Un sillage intensément oriental, porté par la noblesse du bois d'oud, l'ambre et une touche de musc ensorcelante."
+    },
+    {
+      "volume": "Ya tout les volume ",
+      "image": "/images/uploads/729a64a3-3e3e-4018-951a-d3257e4ed5e7.jpeg",
+      "description": "Une brume parfumée délicate au bois conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée.",
+      "prix": 1500,
+      "famille": "Parfume simple ",
+      "nom": "Sweet heart",
+      "id": 2,
+      "accroche": "Bien aromatisée "
     }
   ]
 }
