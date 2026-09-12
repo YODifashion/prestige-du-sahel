@@ -148,6 +148,16 @@
       "famille": "Séduction ",
       "nom": "Rouge danger noir ",
       "id": 15
+    },
+    {
+      "volume": "O",
+      "image": "/images/uploads/d3d62236-ef53-4edc-91a7-4b947de78461.jpeg",
+      "description": "Très canons ",
+      "accroche": "Pour la nuit pimenter ",
+      "prix": 3500,
+      "famille": "Séduction ",
+      "nom": "Rouge ",
+      "id": 16
     }
   ]
 }
