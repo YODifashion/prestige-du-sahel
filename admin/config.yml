@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "produits"
+    label: "Catalogue"
+    files:
+      - file: "content/produits.json"
+        label: "Parfums"
+        name: "catalogue"
+        fields:
+          - label: "Parfums"
+            name: "produits"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}} FCFA"
+            fields:
+              - { label: "ID (ne pas modifier, doit rester unique)", name: "id", widget: "number", value_type: "int" }
+              - { label: "Nom du parfum", name: "nom", widget: "string" }
+              - { label: "Famille olfactive", name: "famille", widget: "string" }
+              - { label: "Prix (FCFA)", name: "prix", widget: "number", value_type: "int" }
+              - { label: "Volume", name: "volume", widget: "string", default: "75 ml" }
+              - { label: "Accroche (une phrase courte)", name: "accroche", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Photo du flacon", name: "image", widget: "image", required: false, hint: "Sans photo, un dégradé de couleur s'affiche à la place." }
+              - { label: "Notes de tête", name: "notes_tete", widget: "list" }
+              - { label: "Notes de cœur", name: "notes_coeur", widget: "list" }
+              - { label: "Notes de fond", name: "notes_fond", widget: "list" }
