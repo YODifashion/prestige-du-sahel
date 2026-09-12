@@ -128,6 +128,26 @@
       "prix": 5000,
       "accroche": "Très bonne ",
       "description": "Idéal partout "
+    },
+    {
+      "volume": "g",
+      "image": "/images/uploads/967b3afe-57d5-4b15-a37f-3cd63fea341a.jpeg",
+      "id": 14,
+      "nom": "Trésor Thiouray ",
+      "famille": "Oriental ",
+      "prix": 2000,
+      "accroche": "Odeur ",
+      "description": "Bien dosé "
+    },
+    {
+      "volume": "Séduction ",
+      "image": "/images/uploads/bdf5eb69-3122-46bf-a3b3-767e820d4661.jpeg",
+      "description": "Nuitsette ",
+      "accroche": "Très classe ",
+      "prix": 3500,
+      "famille": "Séduction ",
+      "nom": "Rouge danger noir ",
+      "id": 15
     }
   ]
 }
