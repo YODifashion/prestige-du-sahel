@@ -29,6 +29,16 @@
       "famille": "Parfum simple ",
       "prix": 1500,
       "accroche": "Parfume été "
+    },
+    {
+      "volume": "50 ml ",
+      "image": "/images/uploads/ec8c0822-eb8f-49f5-bf1d-56ccf9b58f5c.jpeg",
+      "description": "Une brume parfumée délicate au bois d'oud, conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée",
+      "prix": 15000,
+      "accroche": "100% authentiques ",
+      "famille": "Oud",
+      "nom": "Oud al malik",
+      "id": 4
     }
   ]
 }
