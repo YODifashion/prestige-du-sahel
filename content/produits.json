@@ -118,6 +118,16 @@
       "famille": "Thiouray ",
       "nom": "Kéthiakh ",
       "id": 12
+    },
+    {
+      "volume": "ml",
+      "image": "/images/uploads/bd0353a9-2ae2-4eea-adf4-ea24c8815855.jpeg",
+      "id": 13,
+      "nom": "Ambiantador ",
+      "famille": "Senteur ",
+      "prix": 5000,
+      "accroche": "Très bonne ",
+      "description": "Idéal partout "
     }
   ]
 }
