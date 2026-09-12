@@ -108,6 +108,16 @@
       "famille": "Oud misc",
       "nom": "Huille ",
       "id": 11
+    },
+    {
+      "volume": "Odeur exceptionnel ",
+      "image": "/images/uploads/2a4657d4-acc6-437d-b4cb-9e9309728cf7.jpeg",
+      "description": "Thiouray ",
+      "accroche": "Très bon ",
+      "prix": 2000,
+      "famille": "Thiouray ",
+      "nom": "Kéthiakh ",
+      "id": 12
     }
   ]
 }
