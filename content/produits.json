@@ -49,6 +49,16 @@
       "famille": "Oud ",
       "nom": "Oud al malick",
       "id": 5
+    },
+    {
+      "volume": "ml",
+      "image": "/images/uploads/1ff6b19c-bcf0-46ab-963b-4ed2453bf37a.jpeg",
+      "description": "Parfume simple ",
+      "prix": 4000,
+      "famille": "Simple ",
+      "accroche": "Trop bonne ",
+      "id": 6,
+      "nom": "Parfum simple "
     }
   ]
 }
