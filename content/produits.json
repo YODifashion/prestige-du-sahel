@@ -21,16 +21,6 @@
       "accroche": "Bien aromatisée "
     },
     {
-      "volume": "Tout volume",
-      "image": "/images/uploads/f6d6b2b0-19fe-4e44-a32b-c7586aad9ee7.jpeg",
-      "description": "Une brume parfumée délicate au bois, conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée.",
-      "nom": "Saphir bleu ",
-      "id": 3,
-      "famille": "Parfum simple ",
-      "prix": 1500,
-      "accroche": "Parfume été "
-    },
-    {
       "volume": "50 ml ",
       "image": "/images/uploads/ec8c0822-eb8f-49f5-bf1d-56ccf9b58f5c.jpeg",
       "description": "Une brume parfumée délicate au bois d'oud, conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée",
@@ -89,6 +79,25 @@
       "famille": "Oud",
       "nom": "Thiouray",
       "id": 9
+    },
+    {
+      "volume": "ml",
+      "image": "/images/uploads/7338e006-d5bc-40d9-83d6-952c2913a7c8.jpeg",
+      "description": "La Cologne bonne ",
+      "accroche": "Parfum simple ",
+      "prix": 1500,
+      "famille": "Parfum la Cologne ",
+      "nom": "Fidel & infidel ",
+      "id": 10
+    },
+    {
+      "volume": "Tout les volum ",
+      "id": 10,
+      "nom": "Fidel & infidèle ",
+      "famille": "La Cologne ",
+      "prix": 1500,
+      "accroche": "Trop bon ",
+      "description": "La Cologne meilleur parfume "
     }
   ]
 }
