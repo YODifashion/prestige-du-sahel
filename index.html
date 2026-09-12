@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prestige du Sahel — Parfumerie</title>
+<meta name="description" content="Prestige du Sahel : parfumerie sénégalaise inspirée des lumières et matières du Sahel. Ambre, oud, safran et musc, composés en petite série.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</head>
+<body>
+
+<header class="entete">
+  <div class="enveloppe entete__barre">
+    <a href="index.html" class="marque">Prestige <span>du Sahel</span></a>
+    <nav>
+      <ul class="menu-principal" id="menu-principal">
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="apropos.html">La maison</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="entete__droite">
+      <a href="panier.html" class="lien-panier">
+        Panier <span class="compteur-panier" data-compteur-panier>0</span>
+      </a>
+      <button class="bascule-menu" id="bascule-menu" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="heros">
+    <div class="enveloppe heros__grille">
+      <div>
+        <p class="heros__eyebrow">Parfumerie sénégalaise</p>
+        <h1>Le Sahel, <em>en sillage</em></h1>
+        <p class="heros__texte">Six parfums composés à Dakar autour des matières du Sahel — ambre, oud, safran, musc — pour un sillage dense qui tient la journée entière et se remarque avant de se voir.</p>
+        <div class="heros__actions">
+          <a href="boutique.html" class="bouton">Voir la boutique</a>
+          <a href="#collection" class="lien-discret">Découvrir la collection ↓</a>
+        </div>
+      </div>
+      <div class="heros__visuel" aria-hidden="true">
+        <div class="heros__flacon"></div>
+      </div>
+    </div>
+    <svg class="dune" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M0,60 C240,10 480,90 720,50 C960,10 1200,70 1440,30 L1440,90 L0,90 Z" fill="#121D33"></path>
+    </svg>
+  </section>
+
+  <section class="section section--nuit" id="collection">
+    <div class="enveloppe">
+      <div class="section__entete">
+        <div>
+          <h2>La collection</h2>
+          <p>Trois parfums pour commencer — la gamme complète vous attend en boutique.</p>
+        </div>
+        <a href="boutique.html" class="lien-discret">Tout voir →</a>
+      </div>
+      <div class="grille-produits" id="grille-accueil"></div>
+    </div>
+  </section>
+
+  <section class="section section--sombre">
+    <div class="enveloppe">
+      <div class="valeurs">
+        <div>
+          <h3>Matières franches</h3>
+          <p>Pas de notes de tête pour faire joli en boutique : chaque parfum est pensé pour son fond, celui qui reste après huit heures.</p>
+        </div>
+        <div>
+          <h3>Petites séries</h3>
+          <p>Chaque flacon est composé et mis en bouteille à Dakar, par lots limités, pour garder la main sur la qualité.</p>
+        </div>
+        <div>
+          <h3>Livraison locale</h3>
+          <p>Commande passée par WhatsApp, livraison à Dakar et environs, paiement Wave ou Orange Money à la remise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <div class="pied__grille">
+      <div>
+        <p class="marque" style="margin-bottom:10px;">Prestige <span>du Sahel</span></p>
+        <p>Parfumerie sénégalaise. Compositions à l'ambre, à l'oud et au musc, pensées pour le climat et les soirées de Dakar.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="boutique.html">Toute la collection</a></li>
+          <li><a href="panier.html">Mon panier</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Nous écrire</a></li>
+          <li><p style="margin:0;">Dakar, Sénégal</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <p>© <span id="annee"></span> Prestige du Sahel. Tous droits réservés.</p>
+      <p>Fait à Dakar.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

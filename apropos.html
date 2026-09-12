@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La maison — Prestige du Sahel</title>
+<meta name="description" content="L'histoire et l'approche de Prestige du Sahel, parfumerie sénégalaise.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="entete">
+  <div class="enveloppe entete__barre">
+    <a href="index.html" class="marque">Prestige <span>du Sahel</span></a>
+    <nav>
+      <ul class="menu-principal" id="menu-principal">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="apropos.html" aria-current="page">La maison</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="entete__droite">
+      <a href="panier.html" class="lien-panier">
+        Panier <span class="compteur-panier" data-compteur-panier>0</span>
+      </a>
+      <button class="bascule-menu" id="bascule-menu" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section section--sombre">
+    <div class="enveloppe">
+      <h1 style="font-size:clamp(2rem,4vw,2.8rem); max-width:16ch;">Une parfumerie pensée depuis Dakar</h1>
+      <div class="bloc-texte">
+        <p>Prestige du Sahel est né d'un constat simple : les grandes maisons composent pour des climats tempérés, des peaux différentes des nôtres, des soirées qui commencent à des heures qu'on ne connaît pas ici. Nous voulions un parfum qui tienne dans la chaleur de Dakar, qui se sente encore à minuit sans qu'on ait eu besoin d'y repasser.</p>
+      </div>
+      <div class="bloc-texte">
+        <p>Chaque composition part d'une seule matière — ambre, oud, safran, rose, musc — traitée franchement plutôt que diluée dans dix notes qui se neutralisent. Les flacons sont mis en bouteille à Dakar, par petites séries, pour qu'on puisse encore corriger un dosage entre deux lots.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--nuit">
+    <div class="enveloppe">
+      <div class="section__entete">
+        <div>
+          <h2>Notre façon de travailler</h2>
+        </div>
+      </div>
+      <div class="valeurs">
+        <div>
+          <h3>Une matière, pas dix</h3>
+          <p>Chaque parfum est construit autour d'un accord central. Les notes de tête introduisent, elles ne masquent pas.</p>
+        </div>
+        <div>
+          <h3>Petits lots</h3>
+          <p>Nous produisons par séries limitées plutôt qu'en continu, pour garder le contrôle sur chaque flacon qui sort.</p>
+        </div>
+        <div>
+          <h3>Commande directe</h3>
+          <p>Pas d'intermédiaire : la commande se fait par WhatsApp, la livraison se coordonne directement avec vous.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <div class="pied__grille">
+      <div>
+        <p class="marque" style="margin-bottom:10px;">Prestige <span>du Sahel</span></p>
+        <p>Parfumerie sénégalaise. Compositions à l'ambre, à l'oud et au musc, pensées pour le climat et les soirées de Dakar.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="boutique.html">Toute la collection</a></li>
+          <li><a href="panier.html">Mon panier</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Nous écrire</a></li>
+          <li><p style="margin:0;">Dakar, Sénégal</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <p>© <span id="annee"></span> Prestige du Sahel. Tous droits réservés.</p>
+      <p>Fait à Dakar.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

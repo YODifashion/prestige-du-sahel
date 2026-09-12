@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique — Prestige du Sahel</title>
+<meta name="description" content="La collection complète Prestige du Sahel : ambre, oud, safran, rose et musc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="entete">
+  <div class="enveloppe entete__barre">
+    <a href="index.html" class="marque">Prestige <span>du Sahel</span></a>
+    <nav>
+      <ul class="menu-principal" id="menu-principal">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html" aria-current="page">Boutique</a></li>
+        <li><a href="apropos.html">La maison</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="entete__droite">
+      <a href="panier.html" class="lien-panier">
+        Panier <span class="compteur-panier" data-compteur-panier>0</span>
+      </a>
+      <button class="bascule-menu" id="bascule-menu" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section section--sombre" style="padding-bottom:0;">
+    <div class="enveloppe">
+      <div class="section__entete" style="border-bottom:none;">
+        <div>
+          <h1 style="font-size:clamp(2rem,4vw,2.8rem);">La boutique</h1>
+          <p>Six compositions, chacune bâtie autour d'une seule matière forte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sombre" style="padding-top:20px;">
+    <div class="enveloppe">
+      <div class="grille-produits" id="grille-catalogue"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <div class="pied__grille">
+      <div>
+        <p class="marque" style="margin-bottom:10px;">Prestige <span>du Sahel</span></p>
+        <p>Parfumerie sénégalaise. Compositions à l'ambre, à l'oud et au musc, pensées pour le climat et les soirées de Dakar.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="boutique.html">Toute la collection</a></li>
+          <li><a href="panier.html">Mon panier</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Nous écrire</a></li>
+          <li><p style="margin:0;">Dakar, Sénégal</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <p>© <span id="annee"></span> Prestige du Sahel. Tous droits réservés.</p>
+      <p>Fait à Dakar.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

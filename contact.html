@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Prestige du Sahel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="entete">
+  <div class="enveloppe entete__barre">
+    <a href="index.html" class="marque">Prestige <span>du Sahel</span></a>
+    <nav>
+      <ul class="menu-principal" id="menu-principal">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="apropos.html">La maison</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="entete__droite">
+      <a href="panier.html" class="lien-panier">
+        Panier <span class="compteur-panier" data-compteur-panier>0</span>
+      </a>
+      <button class="bascule-menu" id="bascule-menu" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section section--sombre">
+    <div class="enveloppe">
+      <div class="fiche-produit" style="grid-template-columns: 1fr 1.2fr;">
+        <div>
+          <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Nous écrire</h1>
+          <p>Une question sur une matière, une commande en gros, une collaboration : écrivez-nous, ou passez directement par WhatsApp pour une réponse plus rapide.</p>
+          <div style="margin-top:30px; display:grid; gap:14px;">
+            <div>
+              <h4 style="font-family:var(--police-texte); font-size:0.8rem; letter-spacing:0.05em; color:var(--sable); margin-bottom:4px;">WhatsApp</h4>
+              <a href="https://wa.me/221771839230" class="lien-discret" target="_blank" rel="noopener">+221 77 183 92 30</a>
+            </div>
+            <div>
+              <h4 style="font-family:var(--police-texte); font-size:0.8rem; letter-spacing:0.05em; color:var(--sable); margin-bottom:4px;">E-mail</h4>
+              <a href="mailto:aminatasy600@gmail.com" class="lien-discret">aminatasy600@gmail.com</a>
+            </div>
+            <div>
+              <h4 style="font-family:var(--police-texte); font-size:0.8rem; letter-spacing:0.05em; color:var(--sable); margin-bottom:4px;">Atelier</h4>
+              <p style="margin:0;">Dakar, Sénégal</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="formulaire" id="formulaire-contact">
+          <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="bouton">Envoyer le message</button>
+          <p id="confirmation-contact" style="display:none; color:var(--sable-clair);">Merci — nous répondons sous 24 à 48 h.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <div class="pied__grille">
+      <div>
+        <p class="marque" style="margin-bottom:10px;">Prestige <span>du Sahel</span></p>
+        <p>Parfumerie sénégalaise. Compositions à l'ambre, à l'oud et au musc, pensées pour le climat et les soirées de Dakar.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="boutique.html">Toute la collection</a></li>
+          <li><a href="panier.html">Mon panier</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Nous écrire</a></li>
+          <li><p style="margin:0;">Dakar, Sénégal</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <p>© <span id="annee"></span> Prestige du Sahel. Tous droits réservés.</p>
+      <p>Fait à Dakar.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("formulaire-contact").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("confirmation-contact").style.display = "block";
+    this.reset();
+  });
+</script>
+</body>
+</html>
