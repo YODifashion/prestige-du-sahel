@@ -91,15 +91,6 @@
       "id": 10
     },
     {
-      "volume": "Tout les volum ",
-      "id": 10,
-      "nom": "Fidel & infidèle ",
-      "famille": "La Cologne ",
-      "prix": 1500,
-      "accroche": "Trop bon ",
-      "description": "La Cologne meilleur parfume "
-    },
-    {
       "volume": "15 ml",
       "image": "/images/uploads/a818a887-58eb-4744-bf02-482d74a5a658.jpeg",
       "description": "Des huille authentique à base musc",
@@ -158,6 +149,16 @@
       "famille": "Séduction ",
       "nom": "Rouge ",
       "id": 16
+    },
+    {
+      "volume": "O",
+      "image": "/images/uploads/4a7b476b-57eb-4554-b632-f07c440977a9.jpeg",
+      "id": 17,
+      "nom": "Blanc du Sahel ",
+      "famille": "Séduction ",
+      "prix": 3500,
+      "accroche": "Très sic ",
+      "description": "Sic pour la nuit "
     }
   ]
 }
