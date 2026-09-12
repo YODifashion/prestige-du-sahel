@@ -42,7 +42,7 @@
     },
     {
       "volume": "50 ml ",
-      "image": "/images/uploads/a818158c-cff6-4e25-9017-3b6c1f84bcfa.jpeg",
+      "image": "/images/uploads/1b1d56bf-4131-4f10-ad2a-fb72a452eb09.jpeg",
       "description": "Une brume parfumée délicate au bois d'oud, conçue avec un flacon à pompe pratique pour une application légère et enveloppante à tout moment de la journée",
       "prix": 15000,
       "accroche": "Authentique ",
@@ -59,6 +59,16 @@
       "accroche": "Trop bonne ",
       "id": 6,
       "nom": "Parfum simple "
+    },
+    {
+      "volume": "ml",
+      "image": "/images/uploads/1b1d56bf-4131-4f10-ad2a-fb72a452eb09.jpeg",
+      "id": 7,
+      "nom": "Amal fi ",
+      "famille": "Amalfi",
+      "prix": 1000,
+      "accroche": "Bonne ",
+      "description": "Une déodorant "
     }
   ]
 }
